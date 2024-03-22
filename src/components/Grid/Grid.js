@@ -1,7 +1,7 @@
 import React from 'react';
 import Guess from '../Guess';
 
-function GuessList({ guesses }) {
+function Grid({ guesses }) {
   return (
     <div className="guess-results">
       { guesses.map((value, index) => (
@@ -11,4 +11,4 @@ function GuessList({ guesses }) {
   );
 }
 
-export default GuessList;
+export default Grid;
