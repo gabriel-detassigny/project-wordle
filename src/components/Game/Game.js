@@ -28,7 +28,7 @@ function Game() {
 
   return (
     <>
-      <Grid guesses={guesses} />
+      <Grid guesses={guesses} answer={answer} />
       <GuessInput addGuessHandler={addGuessHandler} />
     </>
   );
